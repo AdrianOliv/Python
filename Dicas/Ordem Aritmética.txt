@@ -1,0 +1,6 @@
+Ordem Aritmética das Operações em Python:
+
+1 - ()
+2 - **
+3 - *  /  //  %
+4 - +  -

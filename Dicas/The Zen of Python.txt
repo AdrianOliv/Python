@@ -1,0 +1,21 @@
+O Zen do Python
+
+- Bonito é melhor que feio.
+- Explícito é melhor que implícito.
+- Simples é melhor que complexo.
+- Complexo é melhor que complicado.
+- Linear é melhor que aninhado.
+- Esparso é melhor que denso.
+- Legibilidade conta.
+- Casos especiais não são especiais o suficiente para quebrar regras.
+- Embora praticidade prevaleça sobre pureza.
+- Erros nunca devem ser silenciados.
+- A não ser explicitamente.
+- Diante de uma ambiguidade, não caia na armadilha do chute.
+- Deve existir um – e preferencialmente um – jeito óbvio de se fazer algo.
+- Embora possa não parecer óbvio a não ser que você seja holandês.
+- Agora é melhor que nunca.
+- Embora nunca normalmente seja melhor que exatamente agora.
+- Se a implementação é difícil de explicar, ela é uma má ideia.
+- Se a implementação é fácil de explicar, talvez seja uma boa ideia.
+- Namespaces são uma grande ideia – vamos usá-los mais!
