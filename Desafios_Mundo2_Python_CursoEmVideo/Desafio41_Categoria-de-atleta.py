@@ -1,3 +1,4 @@
+# Programa que lê a idade do atleta e identifica a categoria de competição.
 print('-=' * 20)
 print('{:^40}'.format('CATEGORIA DE ATLETA'))
 print('-=' * 20)
