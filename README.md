@@ -1,4 +1,5 @@
 # Python
- Repositorio do curso de Python - Curso em Video
+ Repositorio para armazenamento do conteúdo criado no curso de Python pela plataforma Curso em Vídeo.
  
- Aqui serão colocados todos os desafios, dicas, estudos e testes realizados no aprendizagem.
+ Aqui serão colocados todos os desafios, dicas, estudos e testes realizados na aprendizagem.
+ 
