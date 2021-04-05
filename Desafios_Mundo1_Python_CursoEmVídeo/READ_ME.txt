@@ -1,3 +1,5 @@
-AO CONCLUIR TODOS OS DESAFIOS, FOI PEDIDO PARA FAZER FORMATÇÃO EM TODOS OS DESAFIOS REALIZADOS
+Ao concluir os desafios, o professor ensinou sobre alteração de cores no terminal
+através da função \033[m]
+Pediu então que os desafios anteriores fossem alterados conforme gosto do aluno.
 
 ADRIAN OLIVEIRA
