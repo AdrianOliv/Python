@@ -14,9 +14,12 @@ fat(var)
 # Pela função interna.
 print(factorial(var))
 
-#Exemplo pego na internet
+# Exemplo pego na internet
 def fact(num):
-    if num == 1:
+# Primeiro if adicionado posteriormente
+    if num == 0:
+        return 1
+    elif num == 1:
         return num
     else:
         return num * fact(num-1)
