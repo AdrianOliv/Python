@@ -1,3 +1,4 @@
+# Criação de um programa que verifica Palíndromos.
 def pal(nome):
     x = nome[::-1]
     if x == nome :
