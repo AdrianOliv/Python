@@ -1,8 +1,9 @@
 # Programa que lê a idade do atleta e identifica a categoria de competição.
+import datetime
 print('-=' * 20)
 print('{:^40}'.format('CATEGORIA DE ATLETA'))
 print('-=' * 20)
-idade = int(input('Digite a sua idade: '))
+idade = datetime.date.today().year - int(input('Digite o ano do seu nascimento: '))
 if idade <= 9 :
     print('Sua categoria é: MIRIM!')
 elif idade <= 14 :
