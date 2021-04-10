@@ -1,3 +1,4 @@
+# Criação de um programa fatorial com repetição
 def fat(num):
     if num == 0:
         return 1
