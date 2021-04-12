@@ -1,13 +1,18 @@
 # Programa que lê o menor e o maior peso digitado.
 # Obs: o programa não pode reconhecer seguidamente itens menores ou maiores.
-me_peso = 1000
+me_peso = 0
 ma_peso = 0
 for i in range(5):
     peso = float(input(f'Pessoa {i+1}, digite seu peso: '))
-    if peso < me_peso:
+    # Resolvendo o problema do peso.
+    if i == 0:
         me_peso = peso
-    elif peso > ma_peso:
         ma_peso = peso
+    else:
+        if peso < me_peso:
+            me_peso = peso
+        elif peso > ma_peso:
+            ma_peso = peso
 print('O maior peso foi: {}'.format(ma_peso))
 print('O menor peso foi: {}'.format(me_peso))
 
