@@ -9,12 +9,12 @@ for i in range(4):
     idade = int(input('Idade: '))
     sexo = input('Sexo (fem/mas): ')
     s_idade += idade
-    if idade > ma_idade:
+    if idade > ma_idade and sexo == 'mas':
         ma_idade = idade
         ma_velho = nome
-    if sexo == 'fem' and idade <= 20:
+    if sexo == 'fem' and idade < 20:
         n_mulheres += 1
 
 print(f'\033[32mA média de idade de todos é {s_idade/4}!\033[m')
-print(f'\033[32mO mais velho do grupo é o(a) {ma_velho} com {ma_idade} anos!\033[m')
+print(f'\033[32mO mais velho do grupo é o {ma_velho} com {ma_idade} anos!\033[m')
 print(f'\033[32mO número de mulheres jovens menor que 20 anos é {n_mulheres}!\033[m')
