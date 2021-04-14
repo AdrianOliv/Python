@@ -4,7 +4,7 @@ from random import randint
 print('=-' * 20)
 print('{:^40}'.format('JOGO DA ADIVINHACAO'))
 print('=-' * 20)
-pc = randint(1, 10)
+pc = randint(0, 10)
 usu = 0
 tent = 0
 print('De 0 a 10...')
