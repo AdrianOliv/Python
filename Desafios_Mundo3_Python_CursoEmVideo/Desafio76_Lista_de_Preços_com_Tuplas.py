@@ -7,6 +7,6 @@ for i in range(3):
     tupla += (input("Digite o valor: ").capitalize(), )
 
 for i in range(0, len(tupla), 2):
-    print("{:^8} -> R$ {}".format(tupla[i], tupla[i+1]))
+    print("{:.<10} -> R$ {}".format(tupla[i], tupla[i+1]))
 
 print("Programa Finalizado!")
