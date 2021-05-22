@@ -1,4 +1,4 @@
-# Proframa Orientado a Objeto
+# Programa Orientado a Objeto
 # Primeiras Tentativas
 
 class Cube(object):
