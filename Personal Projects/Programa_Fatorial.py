@@ -1,20 +1,8 @@
-# Criação de um programa de fatorial.
+# Programa Fatorial.
+# Importando Biblioteca
 from math import factorial
-def fat(x):
-     if x <= 1:
-         print('\033[34mO fatorial de 1 e 0 é igual a: 1\033[m')
-     else:
-         for i in range(x-1, 0, -1):
-             x = x * i
-         print(f'\033[32mO fatorial é: {x}\033[m')
-            
-var = int(input('Digite o num: '))
-fat(var)
 
-# Pela função interna.
-print(factorial(var))
-
-# Exemplo pego na internet
+# Exemplo pesquisado
 def fact(num):
 # Primeiro if adicionado posteriormente
     if num == 0:
@@ -24,4 +12,22 @@ def fact(num):
     else:
         return num * fact(num-1)
 
-print(fact(var))
+# Definindo uma função
+def fat(x):
+     if x <= 1:
+         return 1
+     else:
+         for i in range(x-1, 0, -1):
+             x = x * i
+         return x
+            
+num = int(input('Digite o num: '))
+
+print("\nPela função definida")
+print(fat(num))
+
+print("\nPela função do import math.")
+print(factorial(num))
+
+print('\nPela função pesquisada')
+print(fact(num))
