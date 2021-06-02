@@ -2,4 +2,4 @@ Ao concluir os desafios, o professor ensinou sobre alteração de cores no termi
 através da função \033[m]
 Pediu então que os desafios anteriores fossem alterados conforme gosto do aluno.
 
-ADRIAN OLIVEIRA
+# AdrianOliv
