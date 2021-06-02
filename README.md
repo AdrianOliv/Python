@@ -2,7 +2,9 @@
 
 # Python
 
-[![NPM](https://img.shields.io/npm/l/react?color=blue&style=for-the-badge)](https://github.com/AdrianOliv/Python/blob/main/LICENSE)
+[![RepoSize](https://img.shields.io/github/repo-size/AdrianOliv/Python?style=for-the-badge)](https://img.shields.io/github/repo-size/AdrianOliv/Python?style=for-the-badge)
+[![License](https://img.shields.io/npm/l/react?color=blue&style=for-the-badge)](https://github.com/AdrianOliv/Python/blob/main/LICENSE)
+[![LastCommit](https://img.shields.io/github/last-commit/AdrianOliv/Python?style=for-the-badge)](https://img.shields.io/github/last-commit/AdrianOliv/Python?style=for-the-badge)
 
 ### Finalidade
 
