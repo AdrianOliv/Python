@@ -9,11 +9,11 @@ while True:
     dado.append(int(input('Peso: ')))
 	
     if men == 0:
-        men = dado[1]
+	men = dado[1]
     if dado[1] > mai:
-    	mai = dado[1]
+	mai = dado[1]
     elif dado[1] < men:
-	    men = dado[1]
+	men = dado[1]
 	
     n.append(dado[:])
     dado.clear()
@@ -25,7 +25,7 @@ while True:
         else:
             print('Valor incorreto.')
     if op in 'Nn':
-	    break
+	break
 
 if len(n) == 1:
     print(f"\nFoi cadastrado somente uma pessoa e seu peso foi de {n[0][1]} kg.")
