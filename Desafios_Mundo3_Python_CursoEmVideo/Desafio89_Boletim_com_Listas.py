@@ -6,7 +6,7 @@ l = []
 ll = []
 
 print('=' * 40)
-print(f'{"BOLETIM - ACESSO PEDAGOGICO":^40}')
+print(f"{'BOLETIM - ACESSO PEDAGOGICO':^40}")
 print('=' * 40)
 
 while True:
