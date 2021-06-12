@@ -1,3 +1,5 @@
+# Prpgrama que verifica se um número é ou não Feliz.
+
 dados = list()
 s = 0
 
