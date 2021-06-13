@@ -11,5 +11,7 @@ for p in range(partidas):
     Jogador[f'Partida{p+1}'] = int(input(f"Total Gols na Partida {p+1}: "))
     t += Jogador[f'Partida{p+1}']
 Jogador['TotalGols'] = t
+
+print()
 for i in Jogador.items():
     print(i)
