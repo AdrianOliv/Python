@@ -1,9 +1,11 @@
 # Usando Try e Except com factorial
+# A função try é excelente para evitar erros de programa que,
+# principalmente quando o usuário erro o tipo de entrada.
+
 from math import factorial
 try:
-    x = 1
-    while x > 0:
-        x = int(input('Digite um número(0 para sair):  '))
-        print(factorial(x))
+    x = int(input('Digite um número:  '))
+    print(factorial(x))
 except:
-    print('Você finalizou!')
+    # Se usuário digitar uma str ou float
+    print('Valor Inválido')
