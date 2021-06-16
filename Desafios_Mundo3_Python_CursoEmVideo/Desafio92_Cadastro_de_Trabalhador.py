@@ -6,7 +6,9 @@
 # vai se aposentar.
 
 from datetime import datetime
+
 trab = {'Nome':'', 'Idade':'', 'CTPS':''}
+
 trab['Nome'] = str(input("Nome da pessoa: "))
 trab['Idade'] = datetime.today().year - int(input("Ano de Nasc: "))
 trab['CTPS'] = int(input("Nº da CTPS: "))
