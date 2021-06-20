@@ -34,6 +34,8 @@ for pessoa in Grupo:
 print(f'\nForam cadastrados {len(Grupo)} {"Pessoa" if len(Grupo) == 1 else "Pessoas"}')
 print('Mulheres Cadastradas: ')
 for i in Mulheres:
-    print(i)
-print(f'A Média das idades do grupo é {si/len(Grupo)}.')
+    for k, v in i.items():
+        print(f'{k} = {v}')
+    print('\n')
+print(f'\nA Média das idades do grupo é {si/len(Grupo)}.')
 print(f'As pessoas com idade acima da média: {Up_Media}\n')
