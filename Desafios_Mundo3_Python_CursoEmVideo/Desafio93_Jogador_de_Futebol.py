@@ -13,5 +13,5 @@ for p in range(partidas):
 Jogador['TotalGols'] = t
 
 print()
-for i in Jogador.items():
-    print(i)
+for k, v in Jogador.items():
+    print(f'{k} = {v}')
