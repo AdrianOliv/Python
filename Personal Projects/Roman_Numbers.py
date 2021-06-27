@@ -39,7 +39,6 @@ def Romanos(word):
             num -= Numerais[word[letter]]
     if num != 0:
         return num
-        cccm
 
 
 #Variables
@@ -52,6 +51,7 @@ Numerais = {"I" : 1,
                        "M" : 1000}
 termo = str()
 
+
 #Program
 Titulo()
 while True:
@@ -62,13 +62,18 @@ while True:
     if termo == "EXIT" or termo == "SAIR":
         break
     elif termo == "":
-        print("Nada foi digitado...")
-    elif Validar(termo) == False:
-        print("\033[31mTermo Inválido!\033[m")
-    else:
-        if Romanos(termo) == False:
-            print("\033[31mErro: termo inválido.\033[m")
+        print("\033[33mNada foi digitado...\033[m")
+    elif termo.isnumeric():
+        print(Arabicos())
+    elif termo.isalpha():
+        if Validar(termo) == False:
+            print("\033[31mErro Validação: Termo Inválido!\033[m")
         else:
-            print(Romanos(termo))
+            if Romanos(termo) == False:
+                print("\033[31mErro Validação: termo inválido.\033[m")
+            else:
+                print(Romanos(termo))
+    else:
+        print("\033[31mErro: alfanumericos não permitidos.\033[m")
     
     sleep(0.5)
