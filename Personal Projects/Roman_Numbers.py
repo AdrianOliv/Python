@@ -3,10 +3,10 @@ from time import sleep
 
 # Funções
 def Titulo():
-    print("\033[7;41m  +", "-" * 34, "+  ")
+    print("  +", "-" * 34, "+  ")
     print("  |", f'{"Números Romanos":^34}', "|  ")
-    print("  +", "-" * 34, "+  \033[m")
-    print("\033[1;31m'Exit' para Sair!\033[m")
+    print("  +", "-" * 34, "+  ")
+    print("  'Exit' para Sair!")
 
 def Validar(word):
     global Numerais
@@ -54,10 +54,12 @@ termo = str()
 
 #Program
 Titulo()
+
 while True:
     print()
+    print("-" * 40)
     
-    termo = str(input("\033[7;40mTermo à descobrir:\033[m ").upper().strip())
+    termo = str(input("Termo à descobrir: ").upper().strip())
     
     if termo == "EXIT" or termo == "SAIR":
         break
