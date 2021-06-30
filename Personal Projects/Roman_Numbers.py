@@ -100,15 +100,29 @@ while True:
     elif termo == "":
         print("\033[33mNada foi digitado...\033[m")
     elif termo.isnumeric():
-        print(Arabicos())
+        print("Valor Numérico reconhecido...")
+        sleep(0.7)
+        print("Validando, aguarde...")
+        sleep(1.7)
+        if 0 <= int(termo) <= 3999:
+            if int(termo) == 0:
+                print("Romano: Nulla")
+            else:
+                Arabico(int(termo))
+        else:
+            print("\033[31mErro: Permitido somente números entre 0-3999!\033[m")
     elif termo.isalpha():
+        print("Valor Alfabético reconhecido...")
+        sleep(0.7)
+        print("Validando, aguarde...")
+        sleep(1.7)
         if Validar(termo) == False:
             print("\033[31mErro Validação: Termo Inválido!\033[m")
         else:
             if Romanos(termo) == False:
                 print("\033[31mErro Validação: termo inválido.\033[m")
             else:
-                print(Romanos(termo))
+                print(f"Arábico: {Romanos(termo)}")
     else:
         print("\033[31mErro: alfanumericos não permitidos.\033[m")
     
