@@ -40,6 +40,40 @@ def Romanos(word):
     if num != 0:
         return num
 
+def Arabico(termo):
+    global Numerais
+    num = list()
+    u = 1
+    while termo != 0:
+        for k, i in Numerais.items():
+            if termo // i == u:
+                if num.count(k) == 3:
+                    if num[-1] == num[-2]:
+                        for s in range(3):
+                            num.pop()
+                            termo += i
+                        termo += i
+                    else:
+                        termo -= i
+                    if len(num) > 0:
+                        if num[-1] in "VLD":
+                            if Numerais[num[-1]] == (5*i):
+                                termo += Numerais[num[-1]]
+                                num.pop()
+                    num.append(k)
+                    u = 0
+                    break
+                else:
+                    num.append(k)
+                    termo -= i
+                    u = 0
+                    break
+        u += 1
+    print("Romano: ", end = "")
+    for h in num:
+        print(h, end = "")
+    print()
+
 
 #Variables
 Numerais = {"I" : 1,
