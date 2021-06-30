@@ -18,10 +18,11 @@ def Validar(word):
                 return False
                 break
             elif letter != len(word) - 1:
-                if Numerais[word[letter]] < Numerais[word[letter+1]]:
-                    if 0.1 > (Numerais[word[letter]] / Numerais[word[letter + 1]]) or (Numerais[word[letter]] / Numerais[word[letter + 1]]) > 0.2:
-                        return False
-                        break
+                if word[letter+1] in Numerais.keys():
+                    if Numerais[word[letter]] < Numerais[word[letter+1]]:
+                        if 0.1 > (Numerais[word[letter]] / Numerais[word[letter + 1]]) or (Numerais[word[letter]] / Numerais[word[letter + 1]]) > 0.2:
+                            return False
+                            break
 
 def Romanos(word):
     global Numerais
