@@ -3,10 +3,10 @@
 from time import sleep
 
 def contador(inicio, fim, passos):
-    print("~" * 40)
-    print(f"De {inicio} a {fim}, com {passos} passos:")
     if passos <= 0:
         passos = 1
+    print("~" * 40)
+    print(f"De {inicio} a {fim}, com {passos} passos:")
     if inicio < fim:
         for cont in range(inicio, fim, passos):
             print(cont, end = " ", flush = True)
