@@ -5,14 +5,19 @@ from time import sleep
 def contador(inicio, fim, passos):
     print("~" * 40)
     print(f"De {inicio} a {fim}, com {passos} passos:")
-    for cont in range(inicio, fim, passos):
-        print(cont, end = " ")
-        sleep(0.7)
+    if inicio < fim:
+        for cont in range(inicio, fim, passos):
+            print(cont, end = " ", flush = True)
+            sleep(0.7)
+    else:
+        for cont in range(inicio, fim, -passos):
+            print(cont, end = " ", flush = True)
+            sleep(0.7)
     print("FIM!")
     print()
         
 contador(1,10,1)
-contador(10,0,-2)
+contador(10,0,2)
 
 print("~" * 40)
 print(f"{'SUA VEZ':^40}")
