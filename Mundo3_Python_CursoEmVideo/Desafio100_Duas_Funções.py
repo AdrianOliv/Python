@@ -6,8 +6,8 @@ from random import randint
 def sortear():
     l = []
     for i in range(5):
-        lista.append(randint(1,100))
-    return lista
+        l.append(randint(1,100))
+    return l
 
 def pares(lista):
     print(f"\nOs númeroes pares da lista são: ", end ="")
