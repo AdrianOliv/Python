@@ -10,10 +10,13 @@ def sortear():
     return l
 
 def pares(lista):
+    sum = int()
     print(f"\nOs númeroes pares da lista são: ", end ="")
     for i in lista:
         if i % 2 == 0:
             print(i, end=" ")
+            sum += i
+    print(f", a soma deles é {sum}")
         
 lista = list()
 lista = sortear()
