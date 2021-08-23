@@ -4,7 +4,7 @@ from datetime import date
 def voto(ano):
     if date.today().year - ano < 16:
         return "NEGADO"
-    elif date.today().year - ano > 17:
+    elif date.today().year - ano > 17 or date.today().year - ano > 65:
         return "OBRIGATÓRIO"
     else:
         return "OPCIONAL"
