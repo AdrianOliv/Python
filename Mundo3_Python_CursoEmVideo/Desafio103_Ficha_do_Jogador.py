@@ -10,7 +10,6 @@ if gols.isnumeric():
 else:
     gols = 0
 if nome.strip() == '':
-    print("ok")
     print(ficha(g=gols))
 else:
     print(ficha(nome, gols))
