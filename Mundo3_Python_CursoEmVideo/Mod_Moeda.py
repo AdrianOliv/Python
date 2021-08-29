@@ -1,3 +1,5 @@
+from time import sleep
+
 def aumentar(x, y = 10):
     """
     Aumenta o valor inserido com um percentual adicionado pelo usuário.
@@ -51,3 +53,32 @@ def metade(x):
         [int/float]: [x / 2]
     """
     return x / 2
+
+def moeda(x):
+    """
+    Formata o valor inserido como moeda brasileira - R$
+
+    Args:
+        x ([int/float]): [Valor à formatar]
+
+    Returns:
+        [int/float]: [R$ x]
+    """
+    return f'R$ {x}'
+
+def resumo(x, y = 0, z = 0):
+    """Resume os calculos dos exercícios anteriores em apenas uma função.
+
+    Args:
+        x ([int/float]): [Valor inserido pelo usuário]
+        y (int, optional): [Valor de incrementação - %]. Defaults to 0.
+        z (int, optional): [Valor de diminuição - %]. Defaults to 0.
+    """
+    print('========  CALCULO FINANCEIRO  ========')
+    print(f'Preço Analisado: {moeda(x)}')
+    print('{}% de Aumento: {}'.format(y, moeda(aumentar(x, y))))
+    print('{}% de Diminuição: {}'.format(z, moeda(diminuir(x, z))))
+    print('Dobro do Valor: {}'.format(moeda(dobro(x))))
+    print('Metade do Valor: {}'.format(moeda(metade(x))))
+    print('======== PROGRAMA FINALIZADO ========')
+    sleep(3)

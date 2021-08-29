@@ -1,12 +1,9 @@
 # Begin
 from time import sleep
-from Mod_Moeda import *
+import Mod_Moeda
 
 def titulo():
     print('========  CALCULO FINANCEIRO  ========')
-
-def moeda(x):
-    return f'R$ {x}'
 
 def fim():
     print('======== PROGRAMA FINALIZADO ========')
@@ -15,8 +12,8 @@ def fim():
 
 # Main
 titulo()
-print(moeda(aumentar(1500, 10)))
-print(moeda(diminuir(1500, 10)))
-print(moeda(dobro(80)))
-print(moeda(metade(90)))
+print(Mod_Moeda.moeda(Mod_Moeda.aumentar(1500, 10)))
+print(Mod_Moeda.moeda(Mod_Moeda.diminuir(1500, 10)))
+print(Mod_Moeda.moeda(Mod_Moeda.dobro(80)))
+print(Mod_Moeda.moeda(Mod_Moeda.metade(90)))
 fim()
