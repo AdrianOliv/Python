@@ -1,6 +1,6 @@
 # Begin
 from time import sleep
-import Mod_Moeda
+from ModulosCeV import Mod_Moeda
 from os import system
 
 def titulo():

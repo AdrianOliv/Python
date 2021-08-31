@@ -1,6 +1,6 @@
 # Begin
 from time import sleep
-import Mod_Moeda
+from ModulosCeV import Mod_Moeda
 
 def titulo():
     print('========  CALCULO FINANCEIRO  ========')
