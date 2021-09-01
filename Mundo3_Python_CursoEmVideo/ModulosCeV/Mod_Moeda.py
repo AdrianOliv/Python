@@ -74,7 +74,7 @@ def resumo(x, y = 0, z = 0):
         y (int, optional): [Valor de incrementação - %]. Defaults to 0.
         z (int, optional): [Valor de diminuição - %]. Defaults to 0.
     """
-    print('========  CALCULO FINANCEIRO  ========')
+    print('\n========  CALCULO FINANCEIRO  ========')
     print(f'Preço Analisado: {moeda(x)}')
     print('{}% de Aumento: {}'.format(y, moeda(aumentar(x, y))))
     print('{}% de Diminuição: {}'.format(z, moeda(diminuir(x, z))))
