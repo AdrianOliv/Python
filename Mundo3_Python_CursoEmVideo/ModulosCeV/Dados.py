@@ -11,7 +11,7 @@ def leiaDin(x):
         print(x, end = '')
         num = input().strip().replace(',', '.')
         for i in range(len(num)):
-            if num[i].isalpha() and num[i] != '.' or num.count('.') > 1:
+            if num[i].isalpha() and num[i] != '.' or num.count('.') > 1 or num[i].isspace():
                 break
             elif i == len(num)-1:
                 return float(num)
