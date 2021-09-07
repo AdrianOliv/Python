@@ -20,4 +20,4 @@ O objetivo principal era armazenar somente o conteúdo do curso de Python do sit
 ### Material de Apoio
 Curso em Vídeo - <a href="https://www.cursoemvideo.com/course/python-3-mundo-1/">Curso de Programação em Python</a>
 
-Livro da Casa do Código - <a href="https://1drv.ms/b/s!AgKTGA-vRoG-hTkPyYRhDcf-2NTv">Python: Escreva seus primeiros programas</a>
+Livro da Casa do Código - <a href="https://1drv.ms/b/s!AgKTGA-vRoG-hTlCTyN_HSDwaaE8">Python: Escreva seus primeiros programas</a>
