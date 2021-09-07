@@ -18,6 +18,32 @@ Criado basicamente para armazenamento de:
 O objetivo principal era armazenar somente o conteúdo do curso de Python do site <a href="https://www.cursoemvideo.com">Curso em Vídeo</a>, mas então pensei em expandir e estou aprimorando os códigos conforme meu conhecimento aumenta.
 
 ### Material de Apoio
-Curso em Vídeo - <a href="https://www.cursoemvideo.com/course/python-3-mundo-1/">Curso de Programação em Python</a>
+ - Curso em Vídeo - <a href="https://www.cursoemvideo.com/course/python-3-mundo-1/">Curso de Programação em Python</a>
+ - Livro da Casa do Código - <a href="https://1drv.ms/b/s!AgKTGA-vRoG-hTnpk3N5J14YvLTn">Python: Escreva seus primeiros programas</a>
+ - App (Play Store) - <a href="https://play.google.com/store/apps/details?id=com.feteps.projeto.aprendapython&hl=pt_BR&gl=US">Aprenda Python _ by X-ray Apps</a>
 
-Livro da Casa do Código - <a href="https://1drv.ms/b/s!AgKTGA-vRoG-hTnpk3N5J14YvLTn">Python: Escreva seus primeiros programas</a>
+### Diretório
+
+```
+├───Dicas
+├───Mundo1_Python_CursoEmVídeo
+│   ├───1.Primeiros Passos
+│   ├───2.Tratando Dados
+│   ├───3.Módulos
+│   └───4.Condicionais
+├───Mundo2_Python_CursoEmVideo
+│   ├───1.Condições Aninhadas
+│   ├───2.Repetições(For)
+│   ├───3.Repetições(While)
+│   └───4.Interrompendo Repetiçoes
+├───Mundo3_Python_CursoEmVideo
+│   ├───1.Tuplas
+│   ├───2.Listas
+│   ├───3.Dicionários
+│   ├───4.Funções
+│   ├───5.Modularização
+│   │   └───ModulosCeV
+│   │       └───__pycache__
+│   └───6.Tratamento de Erros + Extras
+└───Personal Projects
+```
