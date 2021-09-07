@@ -8,7 +8,16 @@
 
 ### Finalidade
 
-Criado para armazenamento de conteúdo, desafios, dicas, estudos e testes realizados na aprendizagem de Python.
+Criado basicamente para armazenamento de:
+ - Conteúdos;
+ - Desafios;
+ - Dicas;
+ - Estudos; e
+ - Testes.
+
+O objetivo principal era armazenar somente o conteúdo do curso de Python do site <a href="https://www.cursoemvideo.com">Curso em Vídeo</a>, mas então pensei em expandir e estou aprimorando os códigos conforme meu conhecimento aumenta.
 
 ### Material de Apoio
-Curso em Vídeo - Curso de Programação em Python
+Curso em Vídeo - <a href="https://www.cursoemvideo.com/course/python-3-mundo-1/">Curso de Programação em Python</a>
+
+Livro da Casa do Código - <a href="https://1drv.ms/b/s!AgKTGA-vRoG-hTkPyYRhDcf-2NTv">Python: Escreva seus primeiros programas</a>
