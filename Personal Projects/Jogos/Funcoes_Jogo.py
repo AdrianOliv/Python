@@ -13,6 +13,7 @@ from time import sleep
 def titulo():
     """Apresenta o titulo do jogo.
     """
+    system('cls')
     print("-" * 40)
     print(f"{'Jogo das Idades':^40}")
     print("-" * 40)
@@ -58,7 +59,6 @@ def play():
     """
     while True:
         try:
-            system('cls')
             titulo()
             print('Iniciar jogo?   1)Sim  2)Não')
             o = str(input('Qual sua opção: '))
