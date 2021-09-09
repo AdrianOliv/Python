@@ -32,10 +32,8 @@ def Jogar():
         op = str(input(f"{'Você quer jogar? (y/n): ':>32}"))
         if op in "Yy":
             return True
-            break
         elif op in "Nn":
             return False
-            break
         else:
             print("\033[31m", end = "")
             print(f"{'Incorreto!':^40}")
