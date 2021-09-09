@@ -54,7 +54,6 @@ def Idade():
             print("\033[m", end = "")
         
 
-
 # Variables
 base = list()
 k = int()
