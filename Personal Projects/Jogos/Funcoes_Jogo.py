@@ -7,17 +7,24 @@
 # Como construir:
 # https://www.ticsnamatematica.com/2014/11/entenda-como-construir-cartoes-jogo-adivinhe-idade.html
 
-from os import system
+import os
 from time import sleep
+
+def limpar_tela():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def titulo():
     """Apresenta o titulo do jogo.
     """
-    system('cls')
+    limpar_tela()
     print("-" * 40)
     print(f"{'Jogo das Idades':^40}")
     print("-" * 40)
 
+def fim():
+    print('\n\033[31mJogo Finalizado!')
+    print('Volte sempre que quiser\033[m', end = '', flush = True)
+    sleep(2)
 
 def cartoes():
     """Cria os cartões de idade conforme base númerica do primeiro número do cartão.
@@ -75,3 +82,14 @@ def play():
                 print(f"{'Incorreto!':^40}")
                 print("\033[m", end = "")
                 sleep(1)
+
+def mostra_carta(carta = 1):
+    """Mostra a carta a ser analisada conforme tabela 'for'.
+
+    Args:
+        carta (list, optional): [Carta única a ser mostrada]. Defaults to 1.
+    """
+    for num in carta:
+        if carta.index(num) > 1 and carta.index(num) % 8 == 0:
+            print('\n')
+        print(f'{num:^4}', end = ' ')

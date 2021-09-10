@@ -1,8 +1,21 @@
-import Funcoes_Jogo
+from Funcoes_Jogo import *
+from time import sleep
 
-cartas = Funcoes_Jogo.cartoes()
+cartas = cartoes()
+
 while True:
-    if Funcoes_Jogo.play():
-        print('jogando')
+    if play():
+        # Inicio
+        for carta in cartas:
+            titulo()
+            print('\nOlhe com atenção para a tabela abaixo...\n')
+            sleep(2)
+            mostra_carta(carta)
+            print('\n')
+            # função idade
+            sleep(5)
+
+        # Fim
     else:
+        fim()
         break
