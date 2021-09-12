@@ -43,7 +43,9 @@ O objetivo principal era armazenar somente o conteúdo do curso de Python do sit
 │   ├───4.Funções
 │   ├───5.Modularização
 │   │   └───ModulosCeV
-│   │       └───__pycache__
 │   └───6.Tratamento de Erros + Extras
 └───Personal Projects
+    ├───Códigos Cifrados
+    └───Jogos
+        └───Advinhe-a-Idade_Completo
 ```
