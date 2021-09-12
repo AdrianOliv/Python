@@ -10,8 +10,10 @@
 import os
 from time import sleep
 
+
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
+
 
 def titulo():
     """Apresenta o titulo do jogo.
@@ -21,10 +23,12 @@ def titulo():
     print(f"{'Jogo das Idades':^40}")
     print("-" * 40)
 
+
 def fim():
     print('\n\033[31mJogo Finalizado!')
     print('Volte sempre que quiser\033[m', end = '', flush = True)
     sleep(2)
+
 
 def cartoes():
     """Cria os cartões de idade conforme base númerica do primeiro número do cartão.
@@ -67,7 +71,7 @@ def play():
     while True:
         try:
             titulo()
-            print('Iniciar jogo?   1)Sim  2)Não')
+            print('Iniciar jogo?   1)Sim  2)Não\n')
             o = str(input('Qual sua opção: '))
         except KeyboardInterrupt:
             print('\n\033[31mPara sair, digite a opção 2!\033[m')
@@ -83,13 +87,41 @@ def play():
                 print("\033[m", end = "")
                 sleep(1)
 
+
 def mostra_carta(carta = 1):
     """Mostra a carta a ser analisada conforme tabela 'for'.
 
     Args:
         carta (list, optional): [Carta única a ser mostrada]. Defaults to 1.
     """
+    print('\033[32m',end = '')
     for num in carta:
         if carta.index(num) > 1 and carta.index(num) % 8 == 0:
             print('\n')
         print(f'{num:^4}', end = ' ')
+    print('\033[m')
+
+
+def advinha_idade(carta = []):
+    """Confirma se a idade está presente na carta analisada.
+    Se estiver, retornará 'True' para o jogo e somará a idade.
+    Se não estiver, retornará 'False'.
+
+    Args:
+        carta (list, optional): [Lista contendo os valores da carta]. Defaults to [].
+
+    Returns:
+        [Boolean]: [True ou False, depende se a idade está ou não)]
+    """
+    while True:
+        mostra_carta(carta)
+        print('\nA sua idade aparece aqui?')
+        confirma_idade = str(input('Digite "y"(sim) ou "n"(não) para responder: ').strip().lower())
+        if confirma_idade == 'y':
+            return True 
+        elif confirma_idade != 'n':
+            print('\033[31mVocê digitou errado, responda novamente...\033[m')
+            sleep(3)
+            titulo()
+        else:
+            return False
