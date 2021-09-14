@@ -45,7 +45,13 @@ O objetivo principal era armazenar somente o conteúdo do curso de Python do sit
 │   │   └───ModulosCeV
 │   └───6.Tratamento de Erros + Extras
 └───Personal Projects
-    ├───Códigos Cifrados
-    └───Jogos
-        └───Advinhe-a-Idade_Completo
+    ├───Códigos Estruturados
+    │   ├───Jogos
+    │   │   └───Advinhe_a_Idade
+    │   └───Matemáticos
+    └───Códigos Simplificados
+        ├───Códigos Cifrados
+        ├───Jogos
+        ├───Matemáticos
+        └───Textos
 ```
