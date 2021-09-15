@@ -12,6 +12,8 @@ from time import sleep
 
 
 def limpar_tela():
+    """Limpa a tela para apresentar novos dados.
+    """
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
@@ -25,6 +27,8 @@ def titulo():
 
 
 def fim():
+    """Apresenta a finalizaçâo do jogo.
+    """
     print('\n\033[31mJogo Finalizado!')
     print('Volte sempre que quiser\033[m', end = '', flush = True)
     sleep(2)
