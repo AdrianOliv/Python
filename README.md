@@ -49,6 +49,7 @@ O objetivo principal era armazenar somente o conteúdo do curso de Python do sit
     │   ├───Códigos_Cifras
     │   ├───Jogos
     │   │   └───Advinhe_a_Idade
+    │   │       ├───Executável
     │   └───Matemáticos
     └───Códigos Simplificados
         ├───Códigos_Cifras
