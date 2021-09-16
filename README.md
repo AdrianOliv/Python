@@ -46,11 +46,12 @@ O objetivo principal era armazenar somente o conteúdo do curso de Python do sit
 │   └───6.Tratamento de Erros + Extras
 └───Personal Projects
     ├───Códigos Estruturados
+    │   ├───Códigos_Cifras
     │   ├───Jogos
     │   │   └───Advinhe_a_Idade
     │   └───Matemáticos
     └───Códigos Simplificados
-        ├───Códigos Cifrados
+        ├───Códigos_Cifras
         ├───Jogos
         ├───Matemáticos
         └───Textos
