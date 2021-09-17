@@ -1,4 +1,4 @@
-[![AdrianOliv](https://github.com/AdrianOliv/Assets/blob/main/20210601_190824.png)](https://github.com/AdrianOliv/Assets/blob/main/20210601_190824.png)
+[![AdrianOliv](https://github.com/AdrianOliv/Assets/blob/main/Imagens/20210601_190824.png)](https://github.com/AdrianOliv/Assets/blob/main/Imagens/20210601_190824.png)
 
 # Python
 
@@ -24,7 +24,7 @@ O objetivo principal era armazenar somente o conteúdo do curso de Python do sit
 
 ### Diretório
 
-```
+```bash
 ├───Dicas
 ├───Mundo1_Python_CursoEmVídeo
 │   ├───1.Primeiros Passos
@@ -49,7 +49,6 @@ O objetivo principal era armazenar somente o conteúdo do curso de Python do sit
     │   ├───Códigos_Cifras
     │   ├───Jogos
     │   │   └───Advinhe_a_Idade
-    │   │       ├───Executável
     │   └───Matemáticos
     └───Códigos Simplificados
         ├───Códigos_Cifras
