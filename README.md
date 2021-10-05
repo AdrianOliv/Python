@@ -19,7 +19,7 @@ O objetivo principal era armazenar somente o conteúdo do curso de Python do sit
 
 ### Material de Apoio
  - Curso em Vídeo - <a href="https://www.cursoemvideo.com/course/python-3-mundo-1/">Curso de Programação em Python</a>
- - Livro da Casa do Código - <a href="https://1drv.ms/b/s!AgKTGA-vRoG-hTnpk3N5J14YvLTn">Python: Escreva seus primeiros programas</a>
+ - Livro da Casa do Código - <a href="https://1drv.ms/b/s!AgKTGA-vRoG-hTlw60C0hdUmlZla">Python: Escreva seus primeiros programas</a>
  - App (Play Store) - <a href="https://play.google.com/store/apps/details?id=com.feteps.projeto.aprendapython&hl=pt_BR&gl=US">Aprenda Python _ by X-ray Apps</a>
 
 ### Diretório
