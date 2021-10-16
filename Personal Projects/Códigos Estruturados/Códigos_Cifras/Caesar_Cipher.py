@@ -11,7 +11,7 @@ def caesar_cipher(text, key = 1, decipher = False):
     """
     result = str()
     for letter in text:
-        if letter not in text:
+        if letter not in alfa:
             result += letter
         else:
             if decipher:
