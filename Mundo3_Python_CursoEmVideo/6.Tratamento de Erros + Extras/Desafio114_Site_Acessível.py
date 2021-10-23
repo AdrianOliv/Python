@@ -1,3 +1,9 @@
-from os import system
+import urllib
+from urllib import request
 
-system('start chrome pudim.com.br')
+try:
+    site = urllib.request.urlopen('http://www.pudim.com.br')
+except:
+    print('Erro! Não foi possível conectar.')
+else:
+    print('Site Conectado!')
